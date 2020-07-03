@@ -7,5 +7,14 @@ public class Hello{
 
 		}
 		System.out.println("Completed");
+
+		for(int i=0;i<5;i++){
+			if(i%2==0){
+				System.out.println(i + " is EVEN number");
+
+			}else{
+				System.out.println(i + " is ODD number");
+			}
+		}
 	}
 }
